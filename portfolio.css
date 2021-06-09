@@ -89,7 +89,10 @@ header {
 
 /* Education
 --------------------------------------- */
-
+.education {
+    background: #0e0f07;
+    color: #d2d5f7
+}
 
 
 /* Contact Info

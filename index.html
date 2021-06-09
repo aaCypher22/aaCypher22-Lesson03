@@ -8,6 +8,68 @@
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/portfolio.css">
   </head>
+
+  <html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Simplest Menu</title>
+  <style type="text/css">
+  body {
+  background: #050405;        
+  }
+  ul {                                   
+  text-align: center;                    
+  list-style: none;                   
+  }
+  ul li {                                 
+  font: bold 26px/21px italic; 
+  display: inline-block;            
+  position: relative;               
+  padding: 20px 15px;           
+  background: rgb(83, 92, 155);              
+  cursor: pointer;                 
+  }
+  ul li:hover {                        
+  background: rgb(40, 43, 197);             
+  color: #fff;                        
+  }
+  ul li ul {                            
+  padding: 0;                       
+  position: absolute;               
+  top: 34px;                        
+  left: -10000px;                 
+  width: 150px;                 
+  }
+  ul li ul li {                        
+  background: rgb(3, 23, 90);           
+  display: block;                 
+  color: #fff;                     
+  }
+  ul li ul li:hover { background: rgb(78, 66, 133); } 
+  ul li:hover ul {                
+  display: block;                
+  left :0px;                        
+  }
+  </style>
+  </head>
+ 
+  <body>
+  <nav><ul><li>Home</li>
+ <li>About</li>
+  <li>
+  Portfolio
+  <ul>
+  <li>Web Design</li>
+  <li>Web Development</li>
+  <li>Illustrations</li>
+  </ul>
+  </li>
+  <li>Blogs</li>
+  <li>Contact</li>
+  </ul></nav>
+  </body>
+  </html>
+ 
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
@@ -85,8 +147,8 @@ Recruited, trained and managed over 500 volunteers per event.  Responsibilities 
 
           <!-- Copy this whole <section> block to add more schools. -->
           <section>
-            <h3>University of North Carolina @ Greensboro- Greensboro, NC</h3>
-            <p>Broadcasting & Cinema Studies, 1997- 2001</p>
+            <h3>Wake Tech Community College, Raleigh, NC</h3>
+            <p>Graphic Design and Advertising 2020-</p>
             <p>Summary or accomplishments.</p>
         </div>
         </section>
@@ -97,7 +159,6 @@ Recruited, trained and managed over 500 volunteers per event.  Responsibilities 
       <footer>
         <div class="content-wrap">
           <h2>Let's Keep in Touch!</h2>
-
           <!-- Social media and contact links. Add or remove any networks. -->
           <ul>
             <li><a href="mailto:woods.abdul@gmail.com">email@example.com</a></li>
@@ -105,6 +166,7 @@ Recruited, trained and managed over 500 volunteers per event.  Responsibilities 
             <li><a href="#" target="_blank">https://twitter.com/DulWood</a></li>
             <li><a href="#" target="_blank">https://www.linkedin.com/in/abdul-woods-869b8aa/</a></li>
             <li><a href="#" target="_blank">https://www.facebook.com/dul.ail.73</a></li>
+        
                   </ul>
               </div>
               </footer>
